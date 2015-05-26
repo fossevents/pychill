@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <title>PyChill</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <style>
         body {
+            font-family: 'Roboto', sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding-left: 2em;
             padding-right: 2em;
         }
+        .title, .nav {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
 
-<h1> PyChill</h1>
+<h1 class="title"> PyChill</h1>
 
-<ul>
-    <li><a href="team.html">Team</a></li>
-    <li><a href="photos.html">Photos</a></li>
-</ul>
+<div class='nav'> <a href="#team">Team</a> | <a href="#photos">Photos</a></div>
 
 <h2>What is it?</h2>
 
@@ -38,7 +40,8 @@ objective of this workshop, thus, is to garner students’ interest in computing
 
 <p>Instead of using learning by rote approach students will discover the various tools and techniques used in building software for the web and learning in the process. </p>
 
-<h2>The team Fossevents.in</h2>
+<section id="team">
+<h2 >The team Fossevents.in</h2>
 <pre>
 Aniket Maithani : Python Backend Developer
 Anuvrat Parashar : Python Backend Developer
@@ -50,10 +53,13 @@ Satyakam Goswami : Foss ( Free and Open Source Software Junkie)
 Saurabh Kumar : Python Hacker
 Shobha Tyagi  : Asst Professor Manav Rachna International University, GNOME Contributor
 </pre>
+</section>
 
+<section id="photos">
 <h2>Photos - PyChill</h2>
 
 <p>coming soon!</p>
+</section>
 
 </body>
 </html>
