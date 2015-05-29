@@ -1,5 +1,6 @@
 body{
 	background-image: url("background.jpg");
+	font-weight: bold;
 	
 }
 
@@ -11,5 +12,29 @@ h2{
 	font-size: 40px;
 	font-family: serif;
 	font-style: normal;
-	
+
+}
+
+a:link{
+	color:#00ffff;
+}
+a:hover{
+	color:#003366;
+}
+a:visited{
+	color: #0066ff;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+body{
+	text-align: left;
+
+}
+
+h1{
+	text-align: center;
 }
