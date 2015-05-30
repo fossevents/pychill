@@ -1,5 +1,6 @@
 body{
-	background-image: url("background.jpg");
+	background-image: url("background4.jpg");
+	
 	font-weight: bold;
 	
 }
@@ -15,14 +16,7 @@ h2{
 
 }
 
-a:link{
-	color:#00ffff;
-}
-a:hover{
-	color:#003366;
-}
-a:visited{
-	color: #0066ff;
+
 }
 
 a{
@@ -38,3 +32,46 @@ body{
 h1{
 	text-align: center;
 }
+div#top{
+	
+	margin: 0; 
+   padding: .3em 0 .3em 0; 
+  
+   width: 100%; 
+   text-align: center; 
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #171722;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+     margin: 0; 
+   padding: .3em .4em .3em .4em; 
+}
+
+a:hover, a:active {
+    background-color: #4d4d70;
+    margin: 0; 
+   padding: .3em .4em .3em .4em; 
+}
+div#top ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+div#top ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
